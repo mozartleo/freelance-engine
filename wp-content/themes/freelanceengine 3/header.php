@@ -212,7 +212,7 @@ global $current_user;
                     <!-- Main Menu -->
 					<?php if ( has_nav_menu( 'et_header_standard' ) ) { ?>
                         <li class="fre-menu-page dropdown">
-                            <a><?php _e( 'PAGES', ET_DOMAIN ); ?><i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                            <a><?php _e( 'LANGUAGE', ET_DOMAIN ); ?><i class="fa fa-caret-down" aria-hidden="true"></i></a>
 							<?php
 							$args = array(
 								'theme_location'  => 'et_header_standard',
